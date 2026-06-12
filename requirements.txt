@@ -1,0 +1,4 @@
+pandas
+numpy
+seaborn
+-e . ## this is for us to trigger setup.py
