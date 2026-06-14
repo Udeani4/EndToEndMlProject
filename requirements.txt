@@ -2,4 +2,7 @@ pandas
 numpy
 seaborn
 matplotlib
--e . ## this is for us to trigger setup.py
+scikit-learn
+catboost
+xgboost
+# -e . ## this is for us to trigger setup.py uncomment when you want to build the package
