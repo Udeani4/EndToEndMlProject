@@ -57,4 +57,7 @@ class DataIngestion:
             raise CustomException(e,sys)
 
         
-        
+if __name__=="__main__":
+    obj=DataIngestion()
+    obj.initiate_data_ingestion()
+## you can now execute in your terminal (python src/compomnents/data_ingestion.py)
