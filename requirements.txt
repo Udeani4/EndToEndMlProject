@@ -6,4 +6,5 @@ scikit-learn
 catboost
 xgboost
 dill
+flask
 # -e . ## this is for us to trigger setup.py uncomment when you want to build the package
