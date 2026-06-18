@@ -148,7 +148,7 @@ activemq-data/
 *.sage.py
 
 # Environments
-artifacts/
+# artifacts/ ## we need it for predictions to happen in AWS server when we deploy, because it contains our pickle files
 .env
 .envrc
 .venv
