@@ -3,8 +3,8 @@ numpy
 seaborn
 matplotlib
 scikit-learn
-catboost
-xgboost
+# catboost ## We commented out catboost and xgboost to see if it will help our deployment on AWS
+# xgboost
 dill
 flask
 gunicorn
