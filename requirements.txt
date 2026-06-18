@@ -8,4 +8,4 @@ xgboost
 dill
 flask
 gunicorn
--e . ## this is for us to trigger setup.py. uncomment when you want to build the package
+# -e . ## this is for us to trigger setup.py. uncomment when you want to build the package

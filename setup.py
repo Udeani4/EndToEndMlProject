@@ -7,7 +7,7 @@ def get_requirements(file_path:str)->List[str]: ## List[str]says that the functi
     ''' this function will return a list '''
     requirements=[]
     with open(file_path) as file_obj:
-        requirements=file_obj.readline()
+        requirements=file_obj.readlines()
         requirements=[req.replace('\n','') for req in requirements] ## to remove the \n
 
         if HYPHEN_E_DOT in requirements:
